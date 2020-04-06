@@ -1,0 +1,43 @@
+.container {
+    margin: 10 ;
+}
+
+#info {
+     background-image:linear-gradient(to right, black, white);
+     padding: 30px;
+     font-size: 15px ;
+     
+}
+
+.p-info {
+    color: #fe7900;
+}
+
+.main-info{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #fe7900;
+    padding-left: 30px;
+}
+
+.Synopsis {
+    color: gray;
+    padding-left: 30px;
+}
+
+h3 {
+    color: #fe7900;
+    font-size: 40px;
+    padding: 15px;
+}
+
+/* If the screen size is 600px wide or less */
+@media only screen and (max-width: 600px) {
+    .main-info{
+      display: inline;
+    }
+  }

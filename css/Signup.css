@@ -1,0 +1,135 @@
+
+ .sign {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+  font-family: 'Montserrat';
+}
+.sign h1 {
+	font-weight: bold;
+	margin: 0;
+}
+
+.sign h2 {
+	text-align: center;
+}
+
+.sign p {
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+}
+
+.sign span {
+	font-size: 12px;
+}
+
+.sign-in-container a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+.signin {
+  display: block;
+  background:linear-gradient(to right, #d39839, #FF4B2B);
+  padding: 1vh;
+  border-radius: 10vh; 
+  transition: 1s;
+}
+.signin:hover {
+  box-shadow: 1px 1px 20px 1px grey;
+  color: white;
+  background:linear-gradient(to left, #d39839, #FF4B2B)
+}
+.sign {
+  height: 100%;
+  width: 100%;
+  grid-area: 'scenn';
+  background-color:;
+  width: 100vw;
+}
+.containers {
+  margin-top: 50px;
+	background-color: #f5f6fa;
+	border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 480px;
+	margin-bottom: 50px;
+}
+.sign-in-container {
+	left: 0;
+	width: 50%;
+	z-index: 2;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 40px;
+}
+.overlay-container{
+  position: absolute;
+	top: 0vh;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 100;
+}
+
+.overlay {
+  background:linear-gradient(to right, #d39839, #FF4B2B);
+  background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	color: #FFFFFF;
+	position: relative;
+  
+	left: 0%;
+	height: 100%;
+}
+.overlay-right {
+  justify-content: center;
+  text-align: center;
+  padding-top: 30vh;
+}
+.social-container {
+	margin: 20px 0;
+}
+.social-container a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+}
+.signup {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 30px 10px 30px;
+  border-radius: 20px;
+  transition: 1s;
+}
+.signup:hover {
+  color: black;
+  background-color: white;
+}
+.sign input {
+	background-color: #EEEEEE;
+	border: none;
+	padding: 12px 20px;
+	margin: 8px 0;
+	width: 100%;
+  
+}

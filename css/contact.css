@@ -1,0 +1,617 @@
+/*pepe*/
+
+@font-face{
+  font-family: neon;
+  src: url(../fonts/NeonTubes2.woff)
+}
+@font-face{
+  font-family: hurm;
+  src: url(../fonts/HURTM___.woff)
+}
+@font-face{
+  font-family: cancer;
+  src: url(../fonts/Zdyk-Cancer.woff)
+}
+@font-face{
+  font-family: bomb;
+  src: url(../fonts/bomberescort.woff)
+}
+@font-face{
+  font-family: revamp;
+  src: url(../fonts/revamped.woff)
+}
+@font-face{
+  font-family: mota;
+  src: url(../fonts/Motairah.woff)
+}
+
+body{
+  font-family: cancer;
+  font-size: 16px;
+  font-weight: ;
+}
+h1{
+  font-size: 40px;
+}
+h4{
+  font-size: 26px;
+}
+
+
+/*Start Navbar*/
+.btn:hover{
+  background-color: #ffa500;
+  border: solid gray 0.5px;
+ }
+.btn{
+  border: solid gray 1px;
+  position: absolute;
+  color: gray;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin-left: 250px;
+  transition-duration: 0.5s;
+}
+
+.fa-user{
+  color: gray;
+  font-size: 25px;
+  font-weight: 100px;
+  padding: 4px;
+}
+.navbar-brand{
+  font-family: hurm;
+  font-size: 30px;
+  margin-right: 00px;
+  color: gray !important;
+  transition-duration: 1s;
+  margin-top: 20px;
+}
+.navbar-brand:hover{
+  color: #fe7900 !important;
+  transition-duration: 1s;
+}
+.fa-home{
+  font-size: 25px;
+  padding: 4px;
+}
+.fa-phone{
+  font-size: 25px;
+  padding: 4px;
+}
+.fa-podcast{
+  font-size: 25px;
+  padding: 4px;
+}
+.nav-link:hover{
+  color: #fe7900 !important;
+}
+.nav-link{
+  transition-duration: .5s;
+}
+.fa-user:hover{
+  color: #fe7900;
+}
+.fa-hat-wizard{
+  position: absolute;
+  margin-top: -26px;
+  rotate: 320deg;
+  margin-left: -20px;
+  font-size: 40px;
+  transition-duration: 2s;
+}
+.form-inline{
+  width: 480px;
+  margin-left: 200px;
+}
+.form-control{
+  width: 300px !important;
+  height: 50px; 
+}
+.dropdown-menu{
+ height: 100px;
+  width: 100px;
+  text-align: center;
+  margin-left: -80px;
+}
+.form-control{
+  border: solid gray 2px;
+  border-radius: 1px 25px 25px 1px;
+  box-shadow: 1px 1px 10px 1px;
+  transition-duration: .5s;
+}
+.form-control:focus{
+  border-radius: 25px;
+  box-shadow: 1px 1px 10px 1px orange;
+  border: solid orange 1px;
+  transition-duration: .5s;
+}
+/*End Of Navbar*/
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  color: ;
+  width: 100%; /* Full width */
+  padding: 15px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 20px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+textarea:focus{
+  box-shadow: 2px 2px 10px 2px snow;
+}
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background:linear-gradient(to right, #d39839, #FF4B2B);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  margin-left: 450px;
+  border-radius: 50px;
+  width: 200px;
+  height: 30px
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background:linear-gradient(to left, #d39839, #FF4B2B);
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  color: darkorange;
+  font-size: 20px;
+  margin-top: 50px;
+  box-shadow:  gray;
+  margin-left: 100px;
+  position: absolute;
+  border-radius: 5px;
+  background-color: hsla(0, 3%, 87%, 0.5);
+  padding: 20px;
+  box-shadow: 1px 0px 5px 1px lightgray;
+} 
+select:focus{
+  box-shadow: 0px 0px 10px 0px white;
+}
+
+#home {
+  clip-path: url(#cache);
+}
+
+#red {
+  fill: none;
+  opacity: 0.15;
+  stroke: #CE1B5F;
+  stroke-width: 12;
+  stroke-miterlimit:10;
+  animation: show 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; 
+}
+
+#blue {
+  fill: none;
+  opacity: 0.15;
+  stroke: #06A1C4;
+  stroke-width: 12;
+  stroke-miterlimit:10;
+  animation: show 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#light-blue {
+  fill: none;
+  opacity: 0.15;
+  stroke: #06A1C4;
+  stroke-width: 6;
+  stroke-miterlimit:10;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 800;
+  animation: draw 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;    
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+ }
+    }
+
+@keyframes show {
+  0% {
+    opacity: 0.15;
+ }
+  50% {
+    opacity: 0.2;
+ }
+  100% {
+    opacity: 0.15;
+ }
+    }
+
+
+
+.mainimg{
+  right: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+/*Start carousel*/
+.carousel{
+  padding: 10px 60px 10px 60px;
+  
+}
+
+
+.carousel-control-next{
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  margin-top: 263px;
+  border-radius: 10px;
+  opacity: ;
+  margin-right: 60px;
+}
+.carousel-control-prev{
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  margin-top: 263px;
+  margin-left: 60px;
+  border-radius: 10px;
+  opacity: ;
+  
+}
+.card-img-top{
+  transition-duration: 1s;
+}
+.card-img-top:hover{
+  transform: rotateY(360deg);
+  
+}
+.fa-play-circle{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 40px;
+  font-size: 100px;
+  display: ;
+  transition-duration: 1s;
+  cursor: pointer;
+  color: #fe7900;
+  }
+.card-body{
+  height: 220px;
+  text-align: center;
+}
+.watched{
+  color: #fe7900;
+  transition-duration: 0.5s;
+}
+.watched:hover{
+  text-shadow: 1px 1px 5px orange;
+}
+.fa-play-circle:hover{
+  display: none;
+  cursor: pointer;
+  }
+/*End of carousel*/
+.dropbts {
+  width: 40px;
+  height: 40px;
+  background-color:#F8F9FA;
+  color: gray;
+  padding: 1px;
+  font-size: 25px;
+  transition-duration: 0.5s;
+  border: solid #F8F9FA;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-con {
+  display: none;
+  position: absolute;
+  background-color: #F8F9FA;
+  min-width: 40px;
+  width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 20px;
+  transition-duration: 0.5s;
+}
+
+.dropdown-con a {
+  color: black;
+  font-size: 15px;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  transition-duration: 0.5s;
+}
+ 
+.dropdown-con a:hover {
+  background-color: #fe7900;
+}
+
+.dropup:hover .dropdown-con {
+  display: block;
+  font-size: 20px
+}
+.plz{
+  transition-duration: .5s;
+}
+.plz:hover{
+  color: #fe7900;  
+}
+
+/*Start dropdown menus*/
+.dropbtn {
+  width: 200px;
+  height: 50px;
+  background-color: ;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: solid gray 1px;
+  border-radius: 0px;
+  font-size: 20px;
+  transition-duration: 0.5s;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 20px;
+  transition-duration: 0.5s;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition-duration: 0.5s;
+}
+ 
+.dropdown-content a:hover {
+  background-color: #fe7900;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  font-size: 20px
+}
+.dropdown:hover .dropbtn {
+  background-color: #fe7900;
+}
+
+/*End dropdown menus*/
+.filterrr{
+ transition-duration: 0.5s;
+  margin-top: 50px;
+}
+.filterrr:hover{
+  color: #fe7900;
+}
+
+/*Start Movies Section*/
+.moviestag{
+  padding: 30px;
+  color: black !important;
+  }
+.moviestag:hover{
+  color: #fe7900;
+  cursor: pointer;
+  text-decoration: none;
+}
+.movielink{
+  color: black;
+  text-decoration: none;
+}
+.movielink:hover{
+  text-decoration: none;
+  color: #fe7900;
+}
+.fa-film{
+  padding: 10px;
+}
+.imgs1{
+  margin-right: 20px;
+  margin-left: -110px;
+}
+.imgs5{
+  margin-left: 50px;
+}
+.imgs2{
+  margin-right: 20px;
+}
+.img3{
+  margin-right: 20px;
+}
+.adimg{
+  position: absolute;
+  margin-top: -130px;
+}
+.movname{
+  font-size: 26px;
+  font-weight: bold
+}
+/*End Movies Section*/
+
+/*Start Series section*/
+.serieslink{
+  margin-top: 130px;
+  padding: 30px;
+  color: black !important;
+  }
+.serieslink:hover{
+  color: #fe7900;
+  cursor: pointer;
+  text-decoration: none;
+}
+.serilinklink{
+  color: black !important;
+  text-decoration: none;
+}
+.serilink:hover{
+  text-decoration: none;
+  color: #fe7900;
+}
+.sirilink{
+  color: black;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+.sirilink:hover{
+  color: #fe7900;
+}
+.fa-infinity{
+  padding: 5px;
+  transition-duration: .5s;
+}
+.fa-infinity:hover{
+  rotate: 90deg;
+}
+.imgs11{
+  margin-right: 20px;
+  margin-left: -110px;
+}
+.imgs55{
+  position: absolute;
+  margin-left: 760px;
+  margin-top: -200px;
+}
+.imgs22{
+  margin-right: 20px;
+}
+.img33{
+  margin-right: 20px;
+}
+.imgs44{
+  margin-left: 20px
+}
+.sername{
+  font-size: 26px;
+  font-weight: bold;
+}
+.iconeta{
+  position: absolute;
+  z-index: 2;
+  font-size: 100px;
+  margin-top: 100px;
+  margin-left: 60px;
+  color: #fe7900;
+}
+.iconetta{
+  position: absolute;
+  z-index: 2;
+  font-size: 100px;
+  margin-top: 100px;
+  margin-left: 60px;
+  color: #fe7900;
+}
+/*End Series section*/
+
+/*Start Footer*/
+.finalrow{
+  margin-bottom: 250px;
+}
+.footerr:before{
+  width: 1400px;
+  height: 120px;
+  background-color: hsla(0.0%,0%,1);
+  position: sticky;
+  bottom: 0;
+  left: 0;
+}
+.footerr{
+  background-image: url("https://cutt.ly/etSiOAs");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1400px;
+  height: 400px;
+  margin-left: -120px;
+  color: white;
+}
+.logo{
+  font-family: hurm;
+  transition-duration:1s;
+  margin-top: 85px;
+}
+.tags{
+  font-size: 30px;
+  margin-top: 100px;
+  transition-duration: 1s;
+}
+.logo:hover{
+    text-shadow: #fe7900 0px 0px 10px;
+  cursor: pointer;
+}
+.tags:hover{
+  text-shadow: #fe7900 0px 0px 10px;
+  cursor: pointer;
+  
+}
+.content{
+  font-size: 15px;
+  text-decoration: none;
+  color: #eae5e1;
+  transition-duration: 0.5s;
+}
+.content:hover{
+  color: #fe7900;
+}
+.footerr{
+  position: absolute;
+  margin-top: 730px;
+}
+.taglink{
+  color: snow;
+  text-decoration: none;
+  cursor: pointer !important;
+  margin-top: 100px;
+}
+.taglink:hover{
+   text-shadow: #fe7900 0px 0px 10px;
+  color: snow;
+  text-decoration: none;
+  cursor: pointer !important;
+}
+.logolink{
+  color: snow;
+}
+.logolink:hover{
+  text-decoration: none;
+  color: snow;
+}
+/*End Footer*/
+
+/*الحمدلله اخيرا Done<3*/

@@ -1,0 +1,252 @@
+.page{
+    background: #eeee;
+    border-bottom: 1px dotted #d4d4d4;
+    padding-bottom: 30px;
+}
+.movieplayer{
+    height: 689px;
+    width: 1349px;
+    background-color: ;
+    padding: ;
+}
+.moviepp{
+    margin-top: 40px;
+    margin-left: 30px;
+    border: solid ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 2px orange;
+    transition-duration: 1s;
+}
+.moviepp:hover{
+    box-shadow: 2px 2px 20px 2px #d35800;
+    transition-duration: 1s;
+}
+.input{
+    box-shadow: 2px 2px 10px 2px;
+    transition-duration: 1s;
+}
+
+.input:focus{
+    box-shadow: 2px 2px 10px 2px orange;
+    transition-duration: 1s;
+}
+
+
+
+
+/** Start Parts**/
+.movietitle:hover{
+    color:#fe7900;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.container{
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: 15px;
+    width: 1170px;
+    margin-top:15px ;
+}
+.youtube{
+    font-size: 13px;
+    height: 50px;
+    display: inline-block;
+    padding-right: 45px;
+}
+.partsborder{
+    padding: 20px;
+    display: inline-block;
+    border-left: 1px dotted #d4d4d4;
+}
+.partsdiv{
+    display: inline-block;
+
+    display: inline-block;
+    font-size: 13px;
+    background: #e1e1e1;
+    color: #666666;
+    padding: 8px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    line-height: 1;
+    min-width: 46px;
+    text-align: center;
+    cursor: pointer;
+}
+.partsdiv:hover{
+    background-color: #fe7900;
+    transition: 1s;
+    color: #fff;
+}
+.partsdiv2:hover{
+    background-color: #fe7900;
+    transition: 1s;
+    color: #fff;
+}
+.partsdiv2{
+    display: inline-block;
+
+    display: inline-block;
+    font-size: 13px;
+    background: #e1e1e1;
+    color: #666666;
+    padding: 8px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    line-height: 1;
+    min-width: 46px;
+    text-align: center;
+    cursor: pointer;
+}
+.vimeo{
+    font-size: 13px;
+    height: 50px;
+    padding-right: 59px;
+    margin-top:10px ;
+    display: inline-block;
+}
+/** End Parts**/
+
+
+
+
+
+/** Start Movie Info **/
+.movieinfo1{
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #666666;
+}
+.infolabel{
+    color: #202020;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-family: "Oswald";
+    font-size: 14px;
+}
+.infolinks{
+    color: #666;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Oswald";
+    font-size: 14px;
+    transition: all 0.3s ease 0s;
+}
+.infolinks:hover{
+    color: #fe7900;
+    cursor: pointer;
+    text-decoration: none;
+}
+.infolinks2{
+    color: #666;
+    font-size: 14px;
+    font-family: "Oswald";
+}
+/** End Movie Info **/
+
+
+
+
+
+
+
+/**Start Input**/
+.h3{
+    border-bottom: 3px solid #fe7900;
+    color: #fe7900;
+    display: inline-block !important; 
+    font-size: 24px !important;
+    font-weight: bold !important;
+    margin-bottom: 12px !important;
+    margin-top: 0 !important;
+    position: relative !important;
+    text-transform: uppercase !important;
+}
+.impred{
+    color: #d9534f !important;
+}
+.inputtext{
+    font-size: 13px;
+    font-family: oswald;
+}
+.input:focus{
+    outline-color:#fe7900 ;
+}
+.input{
+    display: block;
+    width: 100%;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ebebeb;
+    border-radius: 0;
+}
+.col-mid-4{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.t:focus{
+    outline-color:#fe7900 ;
+}
+.t{
+    border: 1px solid #ebebeb;
+    padding: 6px 15px;
+    font-size: 14px;
+    width: 350px;
+    max-height: 40px;
+}
+.endtext{
+    display: inline-block;
+
+    display: inline-block;
+    width: auto;
+    background: #fe7900;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    line-height: 1;
+    min-width: 46px;
+    text-align: center;
+    cursor: pointer;
+}
+.endtext:hover{
+    background-color: #666;
+    transition: all 0.5s ease 0s;
+    color: #fff;
+}
+.endbutton{
+    text-align: right;
+}
+.omran{
+    font-size: 20px;
+}
+.input{
+    margin-bottom: 30px;
+}
+.endbutton{
+    margin-bottom: 50px;
+}
+.t{
+    box-shadow: 2px 2px 10px 2px;
+    margin-bottom: 20px;
+    transition-duration: 1s;
+}
+.t:focus{
+    box-shadow: 2px 2px 10px 2px orange;
+    transition-duration: 1s;
+}
+/**End Input**/ 
